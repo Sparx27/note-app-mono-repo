@@ -23,7 +23,7 @@ loginRouter.post('/', async (request, response) => {
 
   // Una vez se corrobora que el usuario existe lo guardo en el token
   const userForToken = {
-    id: user._id,
+    id: user.id,
     username: user.username
   }
 
