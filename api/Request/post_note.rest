@@ -1,0 +1,17 @@
+POST http://localhost:3001/api/notes/
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNWM0MTI0YjI5YmVjZjRhZjBmNmNjMSIsInVzZXJuYW1lIjoiZWxNaWR1IiwiaWF0IjoxNjY3MDA0Mjc3LCJleHAiOjE2Njc2MDkwNzd9.Q2M3koRyA3g_mVOARHQpBnpvPEy9TPEOE605aIvyci0
+
+{
+  "content": "Probando nuevamente",
+  "important": true
+}
+
+###
+
+POST http://localhost:3001/api/notes/
+Content-type: application/json
+
+{
+  "content": ""
+}
